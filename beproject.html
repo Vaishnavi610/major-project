@@ -1,0 +1,100 @@
+<!Doctype html>
+<html>
+    <head>
+        <title> Hashtag Recommendation System</title>
+        <style>
+            body, html{
+                height: 100%;
+                background-image: url("hashta.jpg");
+
+                /* Full height */
+                height: 100%;
+
+                /* Center and scale the image nicely */
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                                        
+
+            }
+           
+            
+            .heading{
+                display: flex;
+                margin-right: 0px;
+
+            }
+            .heading h1{
+                font-size: 100px;
+                font-style: italic;
+                color: black;
+                margin-top: 50px;
+            }
+            .heading button{
+                height: 50px;
+                
+                width: 70px;
+                margin-top: 90px;
+                margin-left: 780px;
+                border-radius: 4px;
+                border-width: 2px;
+                background-color: black;
+                color: white;
+                font-weight: bold;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-style: italic;
+                
+            }
+            .formt{
+                display: flex;
+                margin-top: 120px;
+                margin-left: 230px;
+            }
+            .formt input{
+                height: 80px;
+               
+                width: 380px;
+                border-radius: 15px;
+                border-width: 4px;
+                font-size: 24px;
+                font-style: italic;
+                font-weight: bold;
+                text-align: center;
+            }
+            .formt button{
+                height: 90px;
+                width: 80px;
+                border-radius: 15px;
+                border-width: 4px;
+                font-size: 14px;
+                font-style: italic;
+                font-weight: bold;
+                text-align: center;
+            }
+     
+        </style>
+        <script>
+            function uploadI() {
+                alert ("Upload here ")
+            }
+            
+        </script>
+    </head>
+    <body>
+        <div class="heading">
+            <h1>Welcome!</h1>
+            <button type="button" >sign up</button>
+          
+        </div>
+       
+        <div class="formt">
+            <form action="" method="POST">
+                <input type="text" placeholder="upload image" onclick="uploadI()">
+                <input type="text" placeholder="keyword">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+        
+
+    </body>
+</html>
